@@ -50,7 +50,7 @@ int main()
             }
         }
     }
-    for (int i = 0; i < 3; i++) {
+    for (int i = 0; i < (N < 3 ? N : 3); i++) {
         printf("%s %d %d\n",
                meteor[i].nama, meteor[i].massa, meteor[i].murni);
         }
